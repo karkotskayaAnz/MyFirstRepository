@@ -1,0 +1,27 @@
+{
+  "name": "first_function",
+  "version": "1.0.0",
+  "main": "tale.js",
+  "type":"module",
+  "scripts": {
+    "format:ci": "prettier . --check",
+    "format": "prettier . --write",
+    "lint:ci": "eslint .",
+    "lint": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anzhelika",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.11.0",
+    "prettier": "^3.3.3"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
